@@ -1,0 +1,92 @@
+
+        @charset "utf-8";
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        :root{
+            --corFundo:#BED4D0;
+            --font-titulo:'Poppins', sans-serif;
+            --luz:#dedede8a;
+            --sombra:rgba(0, 0, 0, 0.233);
+        }
+        body{
+            font-family: 'Poppins',sans-serif;
+        }
+        .container{
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            background-color: var(--corFundo);
+        }
+        .sec-01{
+           height: 50%;
+           width: 400px;
+           background-color: var(--corFundo);
+           padding: 30px;
+           border-radius: 3em;
+           box-shadow:-3px -3px 15px var(--luz), 3px 3px 5px var(--sombra);
+           
+        }
+    
+
+        .sec-01 h1{
+            text-align: center;
+            margin: 0.7em;
+            font-family: var(--font-titulo);
+            font-weight:bolder;
+            color: #545454;
+        }
+        .sec-01 p{
+            text-align: center;
+            font-weight: lighter;
+            color: #877A7A;
+            
+        }
+        .pic-container{
+           display:flex;
+           justify-content:center;
+           align-items:center;
+           
+        }
+        .pic-container img{
+            width:50%;
+            margin:10px;
+        }
+        .div-links {
+            display:flex;
+            flex-direction:column;
+            text-align:center;
+        }
+        .div-links a{
+            color:#4C5453;
+            font-size:0.8em;
+            padding:20px 10px 10px 10px;
+            text-decoration:none;
+            font-weight:lighter;
+        }
+        .div-links a:hover{
+            text-decoration:underline;
+        }
+        .div-links button{
+            padding:3px;
+            border:none;
+            border-radius:1em;
+            background-color:#6C8782;
+            color:#fff;
+            font-family:'Poppins',sans-serif;
+            font-weight:normal;
+            cursor:pointer;
+        }
+        .div-links button:hover{
+            text-decoration:underline;
+        }
+        
+        
+        
